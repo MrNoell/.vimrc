@@ -78,6 +78,7 @@ nnoremap <C-h> :wincmd h<CR>
 nnoremap <C-l> :wincmd l<CR>
 nnoremap <C-j> :wincmd j<CR>
 nnoremap <C-k> :wincmd k<CR>
+nnoremap <C-n> :NERDTreeToggle<CR>
 map cc <plug>NERDCommenterToggle
 
 autocmd bufenter * if(winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
