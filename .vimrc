@@ -6,9 +6,6 @@
 "|_| \_| |_| |______|
 "
 
-"TODO: find a way to run stuff directly from vim and not from the terminal
-"	   error cheching
-
 filetype indent plugin on
 syntax on
 
